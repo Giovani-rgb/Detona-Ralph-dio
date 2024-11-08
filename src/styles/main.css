@@ -1,0 +1,42 @@
+main{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('../images/BricksPixel.png');
+}
+.menu{
+  display: flex;
+  background-color: #000000;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid #ffd700;
+  
+  height: 80px;
+  width: 100%;
+}
+.painel{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square{
+  height: 90px;
+  width: 90px;
+  border: 1px solid #000000;
+  background-color: #2adff2;
+}
+.enemy{
+  background-image: url("../images/Ralph.png");
+  background-size: cover;
+}
+.menu-lives{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-time-left h2::nth-child{2},
+.menu-your-score h2::nth-child{2}{
+  margin-bottom: 10px;
+}
